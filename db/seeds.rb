@@ -1,5 +1,5 @@
 require 'faker'
-# Create 10 cours with 2 to 8 lessons each
+# Create 46 courses with 8 to 32 students each
 46.times do
   course = Course.create!(title: Faker::Community.characters, description: Faker::FamilyGuy.quote)
   i = rand(25) + 8
